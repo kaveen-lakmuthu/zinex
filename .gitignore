@@ -1,0 +1,15 @@
+# ZINEX - Git Ignore Rules
+
+# Zig build outputs and local binary caches
+zig-out/
+.zig-cache/
+
+# Zig package manager local cache/dependencies 
+# (build.zig.zon will fetch these automatically for other users)
+zig-pkg/
+
+# System-specific files
+.DS_Store
+Thumbs.db
+*.swp
+*.bak
